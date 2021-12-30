@@ -74,43 +74,42 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/cab6825dea9263d347831.jpg)
+𝐇𝐨𝐢, 𝐈 𝐦 𝐎𝐀𝐍 𝐓𝐇𝐎𝐑 
+𝐈'𝐦 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐡𝐞𝐥𝐩 𝐲𝐨𝐮 𝐭𝐨 𝐦𝐚𝐧𝐚𝐠𝐞 𝐲𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 𝐚𝐧𝐝 𝐈 𝐦 𝐯𝐞𝐫𝐲 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐁𝐨𝐭𝐬 ! 𝐇𝐢𝐭 ☛ /help
+[⚡](https://telegra.ph/file/d499973b13d1f052cbff3.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="𝔸𝔻𝔻 ⚡𝕋ℍ𝕆ℝ⚡𝕋𝕆 𝕌ℝ 𝔾ℝ𝕆𝕌ℙ", url="t.me/king_thor_robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://github.com/ITZ-ZAID/TGN-Robot"),
+        InlineKeyboardButton(text="🛠️𝕊𝕆𝕌ℝℂ𝔼🛠️", url=f"https://github.com/ItsAttitudeking"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="🛎️𝕊𝕌ℙℙ𝕆ℝ𝕋", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/The_Godfather_Network"),
+        InlineKeyboardButton(text="𝕌ℙ𝔻𝔸𝕋𝔼𝕊🔊", url=f"https://t.me/ATTITUDE_Network"),
         InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
+            text="ℂℍ𝕀𝕋 ℂℍ𝔸𝕋😌", url=f"https://t.me/friends_ww"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+        InlineKeyboardButton(text="⚔️ℍ𝔼𝕃ℙ & ℂ𝕆𝕄𝕄𝔸ℕ𝔻𝕊⚔️", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/cab6825dea9263d347831.jpg)"""
+`𝐘𝐨𝐮 𝐜𝐚𝐧 𝐜𝐡𝐨𝐨𝐬𝐞 𝐚𝐛𝐝 𝐨𝐩𝐭𝐢𝐨𝐧 𝐛𝐞𝐥𝐨𝐰, 𝐁𝐲 𝐜𝐥𝐢𝐜𝐤𝐢𝐧𝐠 𝐚 𝐁𝐮𝐭𝐭𝐨𝐧.....`𝐀𝐥𝐬𝐨 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐚𝐬𝐤 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠 𝐢𝐧 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩 [⚡](https://telegra.ph/file/9560aa796165f09b35165.jpg)"""
 
-START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
+START_IMG = "https://telegra.ph/file/76b00228291eee01aa2bd.mp4"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Lucifer](t.me/detctective_de) \
- Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/Zaid_updates) \
+DONATE_STRING = """Hello, glad to hear you want to donate!
+ You can support the project [ཧᜰ꙰ꦿ➢𝐎𝐀𝐍༒☛](t.me/ItsAttitudeking) \
+ Supporting isnt always financial! [⚡ℕ𝔼𝕋𝕎𝕆ℝ𝕂⚡](https://t.me/Attitude_Network) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -196,7 +195,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="◀️𝔹𝔸ℂ𝕂", callback_data="help_back")]]
                     ),
                 )
 
@@ -224,7 +223,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-            START_IMG, caption= "<code>Zaid is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
+            START_IMG, caption= "<code>⚡Thor is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime            
             ),
             parse_mode=ParseMode.HTML,
@@ -313,7 +312,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="𝔹𝔸ℂ𝕂", callback_data="help_back")]]
                 ),
             )
 
@@ -359,23 +358,23 @@ def zaid_about_callback(update, context):
     query = update.callback_query
     if query.data == "zaid_":
         query.message.edit_text(
-            text=""" ℹ️ I am [TGN Robot](t.me/TGN_Ro_bot), a powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_TGN's licensed under the GNU General Public License v3.0_
-                 \n❍ Assistant @TGN\_Assistant.
-                 \nHere is the [💾Repository](https://github.com/Itsunknown-12/TGN-Robot).
-                 \n\nIf you have any question about bot, let us know at .""",
+            text=""" ℹ️ I am [ཧᜰ꙰ꦿ➢𝐎𝐀𝐍༒☛THOR](t.me/King_thor_robot), a powerful group management bot built to help you manage your group easily.
+                 \n★ I can restrict users.
+                 \n★ I can greet users with customizable welcome messages and even set a group's rules.
+                 \n★ I have an advanced anti-flood system.
+                 \n★ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 \n★ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+                 \n★ I check for admins' permissions before executing any command and more stuffs
+                 \n\n★ 𝐎𝐀𝐍's licensed under the GNU General Public License v3.0_
+                 \n★ [⚔️𝔸𝕊𝕊𝕀𝕊𝕋𝔸ℕ𝕋⚔️](Https://t.me/king_thor_assistant)
+                 \nHere is the [💾𝕊𝕆𝕌ℝℂ𝔼](https://github.com/ItsAttitudeking).
+                 \n\n★ If you have any question about bot, let us know at [★𝐎𝐀𝐍☛𝕊𝕌ℙℙ𝕆ℝ𝕋](Https://t.me/OAN_Support).""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="zaid_back")
+                    InlineKeyboardButton(text="𝔹𝔸ℂ𝕂", callback_data="zaid_back")
                  ]
                 ]
             ),
@@ -395,14 +394,14 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I am [Robot](t.me/TGN_Ro_Bot)
-                 \nHere is the [Source Code](https://github.com/Itsunknown-12/TGN-Robot) .""",
+            text=""" Hi..🤗 I am [ཧᜰ꙰ꦿ➢𝐎𝐀𝐍༒☛Robot](t.me/king_thor_robot)
+                 \nHere is the [★𝕊𝕆𝕌ℝℂ𝔼★](https://github.com/ItsAttitudeking) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back")
+                    InlineKeyboardButton(text="◀️𝔹𝔸ℂ𝕂", callback_data="source_back")
                  ]
                 ]
             ),
@@ -468,7 +467,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="𝔹𝔸ℂ𝕂", callback_data="help_back")]]
             ),
         )
 
@@ -541,7 +540,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="𝔹𝔸ℂ𝕂",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -643,7 +642,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 412094015 and DONATION_LINK:
+        if OWNER_ID != 1836386247 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
